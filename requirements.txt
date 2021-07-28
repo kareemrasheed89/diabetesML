@@ -54,9 +54,6 @@ pyarrow==4.0.1
 pycparser==2.20
 pydeck==0.6.2
 Pygments==2.9.0
-pywin32
-pywinpty
-pyzmq
 requests==2.26.0
 scikit-learn==0.24.2
 scipy==1.7.0
