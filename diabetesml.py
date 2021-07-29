@@ -8,9 +8,9 @@ import streamlit as st
 
 
 st.header("""Diabetes Detection: Detect if someone have diabetes or not using ML model""")
-image=Image.open("C:/Users/user/Desktop/diabetesML/ML.jpg")
+image=Image.open("C:\Users\user\Desktop\diabetesML\ML.jpg")
 st.image(image, caption='ML',use_column_width=True)
-df=pd.read_csv("C:/Users/user/Desktop/diabetesML/Diabetesdata.csv")
+df=pd.read_csv("C:\Users\user\Desktop\diabetesML\Diabetesdata.csv")
 data_metrics=df.describe()
 st.dataframe(df)
 st.write(data_metrics)
